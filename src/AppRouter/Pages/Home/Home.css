@@ -1,0 +1,51 @@
+.main_cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image_div {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../../Assets//HorseKiss.jpeg");
+
+  /* Set a specific height */
+  min-height: 300px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image_div p {
+  font-family: "Fredoka", sans-serif;
+  font-size: 3rem;
+  color: white;
+}
+.about_parag_cont {
+  font-family: "Fredoka", sans-serif;
+  font-size: 20px;
+}
+.about_parag_cont_title {
+  color: rgb(56, 14, 225);
+  font-size: 30px;
+}
+.icon {
+  width: 100px;
+  height: 100px;
+}
+.icon_cont_title {
+  color: rgb(56, 14, 225);
+  font-size: 30px;
+}
+.Icon_cont_aligner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

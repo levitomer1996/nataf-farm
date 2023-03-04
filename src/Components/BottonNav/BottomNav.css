@@ -1,0 +1,36 @@
+.bottom-nav {
+  background-color: #f2f2f2;
+  padding: 10px 0;
+}
+
+.bottom-nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.bottom-nav li {
+  margin: 0 10px;
+}
+
+.bottom-nav a {
+  color: rgb(56, 14, 225);
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.bottom-nav a:hover {
+  color: #666;
+}
+@media only screen and (max-width: 500px) {
+  .bottom-nav ul {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .bottom-nav li {
+    margin: 10px 0px;
+  }
+}
