@@ -33,9 +33,6 @@ function Header() {
           }}
         >
           <img src={horseLogo} className="logo" />
-          <IconButton href="tel:+972509721767" style={{ float: "left" }}>
-            <PhoneIcon style={{ width: "50px", height: "50px" }} />
-          </IconButton>
         </Toolbar>
       </Container>
     </AppBar>

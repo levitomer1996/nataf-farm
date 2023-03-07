@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import "../Home.css";
 const ContactIcons = () => {
   return (
-    <Paper style={{ height: 300, width: 300 }} elevation={3}>
+    <Paper style={{ height: 300, width: 300, margin: 10 }} elevation={3}>
       <Grid
         style={{ padding: 10 }}
         container
