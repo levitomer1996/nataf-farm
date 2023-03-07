@@ -12,6 +12,7 @@ const Home = () => {
     <div className="main">
       <div className="image_div">
         <p>חוות נטף</p>
+        <p style={{ fontSize: "20px" }}>מושב בית נחמיה</p>
       </div>
       <Margin bottom={10} />
       <AboutParag />

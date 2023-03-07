@@ -1,19 +1,12 @@
 import * as React from "react";
 import "./header.css";
 import AppBar from "@mui/material/AppBar";
-import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
-import Typography from "@mui/material/Typography";
-import Menu from "@mui/material/Menu";
-import MenuIcon from "@mui/icons-material/Menu";
+import { Link } from "react-router-dom";
+import PhoneIcon from "@mui/icons-material/Phone";
 import Container from "@mui/material/Container";
-import Avatar from "@mui/material/Avatar";
-import Button from "@mui/material/Button";
-import MenuItem from "@mui/material/MenuItem";
-import AdbIcon from "@mui/icons-material/Adb";
 import horseLogo from "../../Assets/horse-logo.png";
-import HeaderList from "./Comps/HeaderList";
 const pages = ["רכיבה טיפולית", "עלינו"];
 
 function Header() {
@@ -31,9 +24,18 @@ function Header() {
   return (
     <AppBar position="static" style={{ backgroundColor: "white" }}>
       <Container maxWidth="100%">
-        <Toolbar disableGutters>
+        <Toolbar
+          disableGutters
+          style={{
+            alignItems: "center",
+            justifyContent: "center",
+            width: "100%",
+          }}
+        >
           <img src={horseLogo} className="logo" />
-          <HeaderList />
+          <IconButton href="tel:+972509721767" style={{ float: "left" }}>
+            <PhoneIcon style={{ width: "50px", height: "50px" }} />
+          </IconButton>
         </Toolbar>
       </Container>
     </AppBar>
