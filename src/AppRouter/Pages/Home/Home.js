@@ -6,8 +6,7 @@ import Swiper from "../../../Components/Carousel/Swiper";
 import Margin from "../../../Components/Margin";
 import CarouselImages from "./Comps/CarouselImages";
 
-import Map from "../../../Components/GoogleMap/Map";
-import SimpleMap from "../../../Components/GoogleMap/Map";
+import GMap from "../../../Components/GoogleMap/Map";
 const Home = () => {
   return (
     <div className="main">
@@ -25,7 +24,10 @@ const Home = () => {
 
       <AboutParag />
       <Margin bottom={10} />
-
+      <div className="main_cont">
+        <GMap />
+      </div>
+      <Margin bottom={10} />
       <Swiper list={CarouselImages} />
     </div>
   );
