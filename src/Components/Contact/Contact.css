@@ -1,0 +1,28 @@
+/* Ensure the Fredoka font is applied only to the Contact component */
+
+.contact-section {
+  font-family: "Fredoka", sans-serif;
+  text-align: center; /* Center-align the content */
+}
+
+#font {
+  font-family: "Fredoka", sans-serif;
+}
+.make_contact {
+  font-size: 3rem;
+}
+/* Make the page responsive */
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 1rem;
+  }
+
+  .contact-section iframe {
+    width: 100%;
+    height: 200px;
+  }
+
+  .make_contact {
+    font-size: 1.5rem;
+  }
+}

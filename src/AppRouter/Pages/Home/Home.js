@@ -4,9 +4,10 @@ import horse_kiss from "../../../Assets/HorseKiss.jpeg";
 import AboutParag from "./Comps/AboutParag";
 import Swiper from "../../../Components/Carousel/Swiper";
 import Margin from "../../../Components/Margin";
+import Contact from "../../../Components/Contact/Contact";
 import CarouselImages from "./Comps/CarouselImages";
+import Reviews from "./Comps/Reviews";
 
-import GMap from "../../../Components/GoogleMap/Map";
 const Home = () => {
   return (
     <div className="main">
@@ -24,9 +25,10 @@ const Home = () => {
 
       <AboutParag />
       <Margin bottom={10} />
-      <div className="main_cont">
-        <GMap />
-      </div>
+      <Margin bottom={10} />
+      <Contact />
+      <Margin bottom={10} />
+      <Reviews />
       <Margin bottom={10} />
       <Swiper list={CarouselImages} />
     </div>

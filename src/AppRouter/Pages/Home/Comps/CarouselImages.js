@@ -1,26 +1,47 @@
-import img3 from "../../../../Assets/Photos/img3.jpeg";
-import img4 from "../../../../Assets/Photos/img4.jpeg";
-import img5 from "../../../../Assets/Photos/img5.jpeg";
-import img6 from "../../../../Assets/Photos/img6.jpeg";
+import photo1 from "../../../../Assets/kids/photo1.jpeg";
+import photo2 from "../../../../Assets/kids/photo2.jpeg";
+import photo3 from "../../../../Assets/kids/photo3.jpeg";
+import photo4 from "../../../../Assets/kids/photo4.jpeg";
+import photo5 from "../../../../Assets/kids/photo5.jpeg";
+import photo6 from "../../../../Assets/kids/photo6.jpeg";
+import photo7 from "../../../../Assets/kids/photo7.jpeg";
+import photo8 from "../../../../Assets/kids/photo8.jpeg";
+import photo9 from "../../../../Assets/kids/photo9.jpeg";
+import photo10 from "../../../../Assets/kids/photo10.jpeg";
+import photo11 from "../../../../Assets/kids/photo11.jpeg";
+import photo12 from "../../../../Assets/kids/photo12.jpeg";
+import photo13 from "../../../../Assets/kids/photo13.jpeg";
+import photo14 from "../../../../Assets/kids/photo14.jpeg";
+import photo15 from "../../../../Assets/kids/photo15.jpeg";
+import photo16 from "../../../../Assets/kids/photo16.jpeg";
+import photo17 from "../../../../Assets/kids/photo17.jpeg";
+import photo18 from "../../../../Assets/kids/photo18.jpeg";
+import photo19 from "../../../../Assets/kids/photo19.jpeg";
+import photo20 from "../../../../Assets/kids/photo20.jpeg";
+import photo21 from "../../../../Assets/kids/photo21.jpeg";
+import photo22 from "../../../../Assets/kids/photo22.jpeg";
 
-import img9 from "../../../../Assets/Photos/img9.jpeg";
-import img10 from "../../../../Assets/Photos/img10.jpeg";
-import img11 from "../../../../Assets/Photos/img11.jpeg";
-import img12 from "../../../../Assets/Photos/img12.jpeg";
-import kid1 from "../../../../Assets/kids/Kid1.jpeg";
-import kid2 from "../../../../Assets/kids/kid2.jpeg";
-import kid3 from "../../../../Assets/kids/kid3.jpeg";
-import kid4 from "../../../../Assets/kids/kid4.jpeg";
 export default [
-  kid1,
-  img3,
-  img4,
-  kid2,
-  kid3,
-  img5,
-  kid4,
-  img6,
-  img9,
-  img10,
-  img11,
+  photo1,
+  photo2,
+  photo3,
+  photo4,
+  photo5,
+  photo6,
+  photo7,
+  photo8,
+  photo9,
+  photo10,
+  photo11,
+  photo12,
+  photo13,
+  photo14,
+  photo15,
+  photo16,
+  photo17,
+  photo18,
+  photo19,
+  photo20,
+  photo21,
+  photo22,
 ];
